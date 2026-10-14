@@ -1,4 +1,4 @@
-# 🐗 Tapir Store | Тестовое задание для ООО Тапир
+# 🐗  Adaptive Product Catalog (Nuxt 4)
 
 [![Nuxt 4](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt.js&style=for-the-badge)](https://nuxt.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&style=for-the-badge)](https://www.typescriptlang.org/)
@@ -16,10 +16,7 @@
 
 ## 🎯 О проекте
 
-Тестовое задание для компании **ООО Тапир** на позицию frontend-разработчика.  
-Разработано Nuxt-приложение на основе предоставленного макета с полным соответствием техническим требованиям.
-
-**Цель проекта:** Демонстрация навыков работы с Nuxt 4, TypeScript, SSR, адаптивной вёрсткой и методологией БЭМ.
+Адаптивный каталог товаров на Nuxt 4: сетка, фильтры, пагинация, SSR/SSG.
 
 ## 📝 Функциональные требования
 
