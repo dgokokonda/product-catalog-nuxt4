@@ -1,4 +1,4 @@
-import type { ProductsResponse } from "~/types/product";
+import type { Product, ProductsResponse } from "~/types/product";
 import { API } from "@/constants/api";
 
 export const useProductsFetch = () => {
@@ -7,6 +7,24 @@ export const useProductsFetch = () => {
     url.searchParams.append("page", pageNum.toString());
     url.searchParams.append("limit", limit.toString());
     return url.toString();
+  };
+
+  const paginateMock = (
+    allProducts: Product[],
+    pageNum: number,
+    limit: number,
+  ): ProductsResponse => {
+    const total = allProducts.length;
+    const totalPages = Math.ceil(total / limit);
+    const start = (pageNum - 1) * limit;
+    const end = Math.min(start + limit, total);
+    return {
+      currentPage: pageNum,
+      limit,
+      products: allProducts.slice(start, end),
+      total,
+      totalPages,
+    };
   };
 
   interface SSRResult {
@@ -18,6 +36,18 @@ export const useProductsFetch = () => {
     pageNum: number,
     limit: number,
   ): Promise<SSRResult> => {
+    if (API.USE_MOCK_API) {
+      try {
+        const mock = (await import("~/mocks/products.json")).default as {
+          products: Product[];
+        };
+        return { data: paginateMock(mock.products, pageNum, limit), error: null };
+      } catch (err) {
+        console.error("Mock SSR fetch error:", err);
+        throw err;
+      }
+    }
+
     const url = buildApiUrl(pageNum, limit);
 
     try {
@@ -45,6 +75,13 @@ export const useProductsFetch = () => {
     pageNum: number,
     limit: number,
   ): Promise<ProductsResponse> => {
+    if (API.USE_MOCK_API) {
+      const mock = (await import("~/mocks/products.json")).default as {
+        products: Product[];
+      };
+      return paginateMock(mock.products, pageNum, limit);
+    }
+
     const url = buildApiUrl(pageNum, limit);
     return await $fetch<ProductsResponse>(url);
   };

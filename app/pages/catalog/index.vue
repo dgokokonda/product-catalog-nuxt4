@@ -45,7 +45,7 @@ if (import.meta.server) {
 }
 
 useHead({
-  title: "Каталог | Тестовое задание",
+  title: "Каталог товаров",
 });
 
 definePageMeta({

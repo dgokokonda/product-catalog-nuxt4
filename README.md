@@ -1,4 +1,4 @@
-# 🐗  Adaptive Product Catalog (Nuxt 4)
+# 🐗 Adaptive Product Catalog (Nuxt 4)
 
 [![Nuxt 4](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt.js&style=for-the-badge)](https://nuxt.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&style=for-the-badge)](https://www.typescriptlang.org/)
@@ -17,6 +17,8 @@
 ## 🎯 О проекте
 
 Адаптивный каталог товаров на Nuxt 4: сетка, фильтры, пагинация, SSR/SSG.
+
+Демо: [https://dgokokonda.github.io/product-catalog-nuxt4](https://dgokokonda.github.io/product-catalog-nuxt4)
 
 ## 📝 Функциональные требования
 

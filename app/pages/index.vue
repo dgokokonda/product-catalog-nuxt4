@@ -3,7 +3,7 @@
     <main>
       <section class="home">
         <div class="home__container">
-          <h1 class="home__title">ТЕСТОВОЕ ЗАДАНИЕ</h1>
+          <h1 class="home__title">НОВАЯ КОЛЛЕКЦИЯ ОБУВИ</h1>
           <NuxtLink to="/catalog" class="home__button"> В каталог </NuxtLink>
         </div>
       </section>
@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Главная | Тестовое задание",
+  title: "Главная страница",
 });
 
 definePageMeta({

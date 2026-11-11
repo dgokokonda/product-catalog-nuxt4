@@ -1,80 +1,308 @@
-{
-  "total": 56,
-  "totalPages": 5,
+﻿{
+  "total": 50,
+  "totalPages": 4,
   "currentPage": 1,
-  "limit": 12,
+  "limit": 16,
   "products": [
     {
       "id": 1,
-      "name": "Acronym x Nike Blazer Low “Night Maroon“",
+      "name": "Acronym x Nike Blazer Low вЂњNight MaroonвЂњ",
       "price": 5550,
-      "image": "https://test-task-api.tapir.ws/images/Mu4ekbQhbyAgAq2pAv0ilFp7.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 2,
-      "name": "Mizuno Racer Trail SE “Gray”",
+      "name": "Mizuno Racer Trail SE вЂњGrayвЂќ",
       "price": 9300,
-      "image": "https://test-task-api.tapir.ws/images/1BJNC3nnPTh6djXBnvCCxPlY.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 3,
-      "name": "Wales Bonner x adidas Samba Nylon “Wonder Clay/Royal Blue”",
+      "name": "Wales Bonner x adidas Samba Nylon вЂњWonder Clay/Royal BlueвЂќ",
       "price": 14300,
-      "image": "https://test-task-api.tapir.ws/images/DnYpp0A1vHHq1geUjhJiNGP0.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 4,
-      "name": "SALOMON XT-WHISPER “Black Asphalt”",
+      "name": "SALOMON XT-WHISPER вЂњBlack AsphaltвЂќ",
       "price": 17150,
-      "image": "https://test-task-api.tapir.ws/images/EejsOvGFwpOYGMb4UkW6oMkg.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 5,
-      "name": "adidas Adimule “Golden Beige Gum“",
+      "name": "adidas Adimule вЂњGolden Beige GumвЂњ",
       "price": 9000,
-      "image": "https://test-task-api.tapir.ws/images/q5NMQqbV19aMsvO1lMdUcBMV.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 6,
-      "name": "Nike Air Max 90 Essential+ “Baroque Brown”",
+      "name": "Nike Air Max 90 Essential+ вЂњBaroque BrownвЂќ",
       "price": 10600,
-      "image": "https://test-task-api.tapir.ws/images/jWvqPV0oYye76Vsk6d7wZml4.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 7,
-      "name": "New Balance NB 1906R “Lunar New Year”",
+      "name": "New Balance NB 1906R вЂњLunar New YearвЂќ",
       "price": 8800,
-      "image": "https://test-task-api.tapir.ws/images/QuMLfxwrTZFGaK1nNAXV1HL9.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 8,
-      "name": "Saucony Kinvara 4 “Light Brown”",
+      "name": "Saucony Kinvara 4 вЂњLight BrownвЂќ",
       "price": 10050,
-      "image": "https://test-task-api.tapir.ws/images/Fb6mamAPooLrG0aDdDPbTiu3.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 9,
-      "name": "adidas Handball Spezial “Black Gum”",
+      "name": "adidas Handball Spezial вЂњBlack GumвЂќ",
       "price": 9600,
-      "image": "https://test-task-api.tapir.ws/images/SriLX0xOryC7IUddpCYyXr3Q.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 10,
-      "name": "Nike Dunk Low “Athletic Department - University Blue“",
+      "name": "Nike Dunk Low вЂњAthletic Department - University BlueвЂњ",
       "price": 7650,
-      "image": "https://test-task-api.tapir.ws/images/DWlNsdw4rJPWAjYmZx5gYuBY.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 11,
       "name": "STONE ISLAND x  New Balance NB 574",
       "price": 16500,
-      "image": "https://test-task-api.tapir.ws/images/xm0jP7KyQkiBNNpsrcpf2M6j.jpg"
+      "image": "/placeholder.svg"
     },
     {
       "id": 12,
-      "name": "Mizuno Wave Rider Beta GORE-TEX “Quiet Shade Vulcan”",
+      "name": "Mizuno Wave Rider Beta GORE-TEX вЂњQuiet Shade VulcanвЂќ",
       "price": 8650,
-      "image": "https://test-task-api.tapir.ws/images/m7Q98mwcgETOUfyUH3Vib4sR.jpg"
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 13,
+      "name": "Nike Air Jordan 1 High вЂњChicago Lost & FoundвЂќ",
+      "price": 19500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 14,
+      "name": "adidas Yeezy Boost 350 V2 вЂњZebraвЂќ",
+      "price": 22000,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 15,
+      "name": "New Balance 990v3 вЂњMade in USAвЂќ",
+      "price": 18500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 16,
+      "name": "Puma Suede Classic вЂњArchival GreenвЂќ",
+      "price": 6200,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 17,
+      "name": "Nike Air Jordan 1 High вЂњChicago Lost & FoundвЂќ",
+      "price": 19500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 18,
+      "name": "adidas Yeezy Boost 350 V2 вЂњZebraвЂќ",
+      "price": 22000,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 19,
+      "name": "New Balance 990v3 вЂњMade in USAвЂќ",
+      "price": 18500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 20,
+      "name": "Puma Suede Classic вЂњArchival GreenвЂќ",
+      "price": 6200,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 21,
+      "name": "Reebok Club C 85 вЂњWhite ChalkвЂќ",
+      "price": 5400,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 22,
+      "name": "Vans Old Skool вЂњCheckerboardвЂќ",
+      "price": 4800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 23,
+      "name": "Converse Chuck Taylor All Star вЂњBlackвЂќ",
+      "price": 4200,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 24,
+      "name": "Nike Dunk Low вЂњPandaвЂќ",
+      "price": 9500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 25,
+      "name": "adidas Campus 00s вЂњCore BlackвЂќ",
+      "price": 8900,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 26,
+      "name": "New Balance 550 вЂњWhite GreenвЂќ",
+      "price": 8200,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 27,
+      "name": "Nike Blazer Mid вЂ™77 вЂњVintage WhiteвЂќ",
+      "price": 7800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 28,
+      "name": "adidas Samba OG вЂњWonder WhiteвЂќ",
+      "price": 8500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 29,
+      "name": "Nike Air Force 1 вЂњвЂ™07 WhiteвЂќ",
+      "price": 9800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 30,
+      "name": "New Balance 2002R вЂњProtection PackвЂќ",
+      "price": 15500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 31,
+      "name": "Nike Air Max 1 вЂњAnniversaryвЂќ",
+      "price": 12500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 32,
+      "name": "adidas Gazelle вЂњBold PinkвЂќ",
+      "price": 7400,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 33,
+      "name": "Nike Jordan 1 Mid вЂњRoyal BlueвЂќ",
+      "price": 11500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 34,
+      "name": "Puma Mayu вЂњWhite GrayвЂќ",
+      "price": 5900,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 35,
+      "name": "Reebok Question Mid вЂњAllen IversonвЂќ",
+      "price": 13000,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 36,
+      "name": "Vans Sk8-Hi вЂњBlack WhiteвЂќ",
+      "price": 5100,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 37,
+      "name": "Converse Chuck 70 вЂњHi BlackвЂќ",
+      "price": 6900,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 38,
+      "name": "Nike Dunk High вЂњUniversity GoldвЂќ",
+      "price": 10500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 39,
+      "name": "adidas Terrex Free Hiker вЂњGore-TexвЂќ",
+      "price": 14000,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 40,
+      "name": "New Balance 997H вЂњMade in USAвЂќ",
+      "price": 17500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 41,
+      "name": "Nike React Infinity Run вЂњFlyknitвЂќ",
+      "price": 11800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 42,
+      "name": "adidas Ultraboost вЂњLight WhiteвЂќ",
+      "price": 13500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 43,
+      "name": "Puma Cell Endura вЂњVaporвЂќ",
+      "price": 7100,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 44,
+      "name": "Reebok Instapump Fury вЂњOGвЂќ",
+      "price": 12800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 45,
+      "name": "Vans Era вЂњTrue WhiteвЂќ",
+      "price": 4500,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 46,
+      "name": "Converse One Star вЂњPro SuedeвЂќ",
+      "price": 5800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 47,
+      "name": "Nike Blazer Low вЂњSacai BlackвЂќ",
+      "price": 16800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 48,
+      "name": "adidas Spezial вЂњNavy GumвЂќ",
+      "price": 8400,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 49,
+      "name": "Nike Air Huarache вЂњRun UltraвЂќ",
+      "price": 9800,
+      "image": "/placeholder.svg"
+    },
+    {
+      "id": 50,
+      "name": "New Balance 327 вЂњSea SaltвЂќ",
+      "price": 7900,
+      "image": "/placeholder.svg"
     }
   ]
 }

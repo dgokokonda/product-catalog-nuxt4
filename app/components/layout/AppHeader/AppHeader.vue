@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__container">
-      <div class="header__logo"></div>
+      <NuxtLink to="/" class="header__logo"></NuxtLink>
       <nav class="header__nav">
         <ul class="header__menu">
           <li v-for="item in menuItems" :key="item">

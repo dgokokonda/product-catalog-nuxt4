@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: true, // Статический HTML на этапе сборки, сервер не нужен
   modules: ["@pinia/nuxt"],
 
   devtools: {
@@ -36,6 +36,8 @@ export default defineNuxtConfig({
   },
 
   app: {
+    // Локально/baseURL = "/", на GitHub Pages через Actions подставится /product-catalog-nuxt4/
+    baseURL: process.env.NUXT_APP_BASE_URL || "/",
     head: {
       title: "Nuxt Tapir Store",
       meta: [
