@@ -1,10 +1,25 @@
 <script setup>
+import { onMounted } from "vue";
+
+const runtimeConfig = useRuntimeConfig();
+const baseURL = runtimeConfig.app.baseURL;
+
 useHead({
   meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-  link: [{ rel: "icon", type: "image/x-icon", href: useRuntimeConfig().app.baseURL + "favicon.ico" }],
+  link: [{ rel: "icon", type: "image/x-icon", href: baseURL + "favicon.ico" }],
   htmlAttrs: {
     lang: "en",
   },
+});
+
+// Восстанавливаем маршрут после редиректа с 404.html на GitHub Pages
+onMounted(() => {
+  const router = useRouter();
+  const savedPath = sessionStorage.getItem("__nuxt_path");
+  if (savedPath) {
+    sessionStorage.removeItem("__nuxt_path");
+    router.replace(savedPath);
+  }
 });
 
 const title = "Tapir Nuxt Store";
