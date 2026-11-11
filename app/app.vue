@@ -1,7 +1,7 @@
 <script setup>
 useHead({
   meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-  link: [{ rel: "icon", href: "/favicon.ico" }],
+  link: [{ rel: "icon", type: "image/x-icon", href: useRuntimeConfig().app.baseURL + "favicon.ico" }],
   htmlAttrs: {
     lang: "en",
   },
